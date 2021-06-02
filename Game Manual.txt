@@ -1,0 +1,60 @@
+Index:
+-Introuction
+-Characters
+-Character pros and cons
+-Game mechanics
+-Way to play
+-Future Updates
+
+
+-Introduction
+	This is a text adventure game that currently has three charachters
+	(They will be listed later). All charachters have pros and cons (also
+	listed later on). There are currently ten possible events (not listed
+	you have to find them.:) ).
+
+
+-Characters
+	1. Mary (mage)
+	Mary can change the world around her
+	2. Oberon (elf)
+	Oberon's veins flow with elven blood
+	3. Terra (dragon)
+	Terra soars through the sky using the powerful wings 
+ 	that belong to the dragons
+
+
+-Character pros an cons
+	1.Mary
+	Can use magic to ward off curses and attack enemies. They attempt
+	to help others but end up being less than helpfull if they make a mistake
+	which is why all their choices have chances to fail. 
+	2.Oberon
+	The Elves are skilled archers and can communicate with trees, however they are not on
+	good terms with the dragons and are very trusting of strangers and friends alike.
+	3.Terra
+	Dragons aren't stopped by terrain (cliffs, mountains,etc)
+	however they are not in good terms with any of they in game races, and cannot walk
+	for long periods of time.
+
+
+-Game mechanics
+	1. Randomized events.
+	2. Character selector.
+	3. Enemies that can be friendly depending on their in game race.
+	4. Seperate in game races (currently only three).
+	5. Fight mechanics.
+	6. Special choices for each character where it makes sense.
+	7. A story that is written as the game progresses and is rewritten,
+	 when the game begins again
+	8. A log of the actions and events picked
+
+-Way to play
+	You must type in the number of your choice (must be a number)(min.1)
+	(max.3 (4 if special choice included)). The player has partial control
+	over the story's ending (death, success, or retired as options).
+-Future Updates
+	Adding more in game races.
+	Adding more possible events.
+	Adding more possible choices (diplomacy or something like that).
+	Better, smoother, more efficient code.
