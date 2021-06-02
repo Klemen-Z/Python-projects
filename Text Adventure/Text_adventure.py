@@ -160,7 +160,7 @@ def gamechoicerules():
             choiceone = '''Say 'They call it a mine' '''
             choicetwo = 'Look for a dwarf'
             choicethree = 'Look for an elf'
-            choicefour = 'Summon a dwarf'
+            choicefour = 'Summon a dwarf to guide you through the mines (of mmmmoooorrriiiaaaa)'
 def gameuserchoicerules():
     global gamechoice
     tom = True
