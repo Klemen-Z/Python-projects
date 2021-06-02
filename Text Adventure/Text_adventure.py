@@ -99,7 +99,7 @@ def gamechoicerules():
             choiceone = 'Attack'
             choicetwo = 'Say hi'
             choicethree = 'Sneak past them'
-            choicefour = 'Ask them for a chance to rest'
+            choicefour = 'Ask them to upgrade your Bow'
         elif character == 'Terra':
             choiceone = 'Attack'
             choicetwo = 'Unavailable'
