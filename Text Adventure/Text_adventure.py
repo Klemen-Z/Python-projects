@@ -1,5 +1,5 @@
 import random
-log = open('storygamelog.txt', 'w+') #hi
+log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
 global character
 hp = 100
