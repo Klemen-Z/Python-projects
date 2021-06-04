@@ -1,5 +1,5 @@
 import random
-log = open('storygamelog.txt', 'w+') #hi
+log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
 global character
 hp = 100
@@ -75,17 +75,17 @@ def gamechoicerules():
         if character == 'Mary':
             choiceone = 'Scale the cliff'
             choicetwo = 'Try to find another way around the mountain'
-            choicethree = 'Go find another path that does involve the mountain'
+            choicethree = 'Go find another path that does not involve the mountain'
             choicefour = 'Attempt to hover over the mountain'
         elif character == 'Oberon':
             choiceone = 'Scale the cliff'
             choicetwo = 'Try to find another way around the mountain'
-            choicethree = 'Go find another path that does involve the mountain'
+            choicethree = 'Go find another path that does not involve the mountain'
             choicefour = 'No special available'
         elif character == 'Terra':
             choiceone = 'Scale the cliff'
             choicetwo = 'Try to find another way around the mountain'
-            choicethree = 'Go find another path that does involve the mountain'
+            choicethree = 'Go find another path that does not involve the mountain'
             choicefour = 'Fly over the mountain'
     elif eventchosen == 2:
         if character == 'Mary':
@@ -204,7 +204,7 @@ meeting many new people,
 they now continue 
 going out on adventures after 
 fulfilling their first one they 
-got a taste for it and continued searched
+got a taste for it and continued searching
 for that experience again
 -----------------------------------------''')
                 story.write(f'''{character} finished their journey,
@@ -213,7 +213,7 @@ meeting many new people,
 they now continue 
 going out on adventures after 
 fulfilling their first one they 
-got a taste for it and continued searched
+got a taste for it and continued searching
 for that experience again''')
                 log.write('End of Game')
                 cardinel = False
