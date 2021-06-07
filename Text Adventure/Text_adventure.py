@@ -1,9 +1,7 @@
 import random
 log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
-global character
-hp = 100
-Mana = 100
+global hp, character, mana, mana_regeneration
 print(f'''--------------------------------------------------------------------------
  Welcome to the game, select a character! 
  [1] Mary
@@ -19,16 +17,25 @@ while True:
         except ValueError:
             print('''select a character from the list please''')
     if character == 1:
+        hp = 100
+        mana = 200
+        mana_regeneration = 10
         log.write('''User picked 'Mary' as a character\n''')
         story.write('Mary is going on an adventure\n')
         character = 'Mary'
         break
     elif character == 2:
+        hp = 75
+        mana = 100
+        mana_regeneration = 5
         log.write('''User picked 'Oberon' as a character\n''')
         story.write('Oberon is going on an adventure\n')
         character = 'Oberon'
         break
     elif character == 3:
+        hp = 200
+        mana = 50
+        mana_regeneration = 5
         log.write('''User picked 'Terra' as a character\n''')
         story.write('Terra is going on an adventure\n')
         character = 'Terra'
@@ -72,7 +79,6 @@ def gamechoicerules():
     choicethree = 'undefined'
     choicefour = 'undefined'
     if eventchosen == 1:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Scale the cliff'
             choicetwo = 'Try to find another way around the mountain'
@@ -155,7 +161,6 @@ def gamechoicerules():
             choicethree = 'Find another path that leads far away'
             choicefour = 'Cast a spell to avoid the curse of the forest'
     elif eventchosen == 10:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = '''Say 'They call it a mine' '''
             choicetwo = 'Look for a dwarf'
