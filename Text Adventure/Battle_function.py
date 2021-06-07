@@ -82,7 +82,7 @@ def battle():
                             mana = mana - 5
                     elif choice.lower() == "earth spell":
                         if mana >= 50:
-                            print("The spell creates an earth quake!")
+                            print("The spell created an earth quake!")
                             dmg = random.randrange(22, 56)
                             mana = mana - 50
                         else:
@@ -103,17 +103,17 @@ def battle():
                     choice = input("[Breathe Fire (0-30dmg) Cost:15 mana] [Stomp attack (15dmg) Cost:0 mana] [Sacrifice (-50HP 50dmg) Cost:50 mana]")
                     if choice.lower() == "breathe fire":
                         if mana >= 15:
-                            print("You try to burn your enemy!")
+                            print("You tried to burn your enemy!")
                             dmg = random.randrange(0, 31)
                             mana = mana - 15
                         else:
                             print("Insufficient mana!")
                     elif choice.lower() == "stomp attack":
-                        print("You stomp the enemy!")
+                        print("You stomped on the enemy!")
                         dmg = 15
                     elif choice.lower() == "sacrifice":
                         if mana >= 50:
-                            print("You sacrifice your own HP for damage!")
+                            print("You sacrificed your own HP for damage!")
                             hp = hp -50
                             dmg = 50
                             mana = mana - 50
@@ -127,8 +127,8 @@ def battle():
 
             print("-" * 150)
 
-            print("You dealed " + str(dmg) + " damage!")
+            print("You dealet " + str(dmg) + " damage!")
             enemy_hp = enemy_hp - dmg
             dmg = random.randrange(5, 21)
             hp = hp - dmg
-            print("The enemy dealed " + str(dmg) + " damage!")
+            print("The enemy dealet " + str(dmg) + " damage!")
