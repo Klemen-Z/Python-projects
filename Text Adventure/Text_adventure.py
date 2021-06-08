@@ -163,17 +163,52 @@ def gameuserchoicerules():
         finally:
             if eventchosen == 1:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        if character == 'Mary':
+                            pass
+                            tom = False
+                        elif character == 'Oberon':
+                            pass
+                            tom = False
+                        elif character == 'Terra':
+                            pass
+                            tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 2:
@@ -188,134 +223,379 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 3:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 4:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 5:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 6:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 7:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 8:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 9:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
             elif eventchosen == 10:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 3:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 4:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 else:
                     print('select a choice from the list')
 playing = True
