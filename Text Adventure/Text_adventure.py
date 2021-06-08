@@ -27,7 +27,7 @@ while True:
         log.write('''User picked 'Oberon' as a character\n''')
         story.write('Oberon is going on an adventure\n')
         character = 'Oberon'
-        hp = 75
+        hp = 100
         Mana = 125
         break
     elif character == 3:
