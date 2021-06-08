@@ -178,8 +178,15 @@ def gameuserchoicerules():
                     print('select a choice from the list')
             elif eventchosen == 2:
                 if gamechoice == 1:
-                    'bob'
-                    tom = False
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
                 elif gamechoice == 2:
                     'bob'
                     tom = False
