@@ -1,7 +1,7 @@
 import random
 log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
-global character
+global character, hp, Mana
 hp = 100
 Mana = 100
 print(f'''--------------------------------------------------------------------------
