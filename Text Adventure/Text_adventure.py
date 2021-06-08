@@ -236,6 +236,81 @@ def gameuserchoicerules():
                     tom = False
                 else:
                     print('select a choice from the list')
+            elif eventchosen == 6:
+                if gamechoice == 1:
+                    'bob'
+                    tom = False
+                elif gamechoice == 2:
+                    'bob'
+                    tom = False
+                elif gamechoice == 3:
+                    'bob'
+                    tom = False
+                elif gamechoice == 4:
+                    'bob'
+                    tom = False
+                else:
+                    print('select a choice from the list')
+            elif eventchosen == 7:
+                if gamechoice == 1:
+                    'bob'
+                    tom = False
+                elif gamechoice == 2:
+                    'bob'
+                    tom = False
+                elif gamechoice == 3:
+                    'bob'
+                    tom = False
+                elif gamechoice == 4:
+                    'bob'
+                    tom = False
+                else:
+                    print('select a choice from the list')
+            elif eventchosen == 8:
+                if gamechoice == 1:
+                    'bob'
+                    tom = False
+                elif gamechoice == 2:
+                    'bob'
+                    tom = False
+                elif gamechoice == 3:
+                    'bob'
+                    tom = False
+                elif gamechoice == 4:
+                    'bob'
+                    tom = False
+                else:
+                    print('select a choice from the list')
+            elif eventchosen == 9:
+                if gamechoice == 1:
+                    'bob'
+                    tom = False
+                elif gamechoice == 2:
+                    'bob'
+                    tom = False
+                elif gamechoice == 3:
+                    'bob'
+                    tom = False
+                elif gamechoice == 4:
+                    'bob'
+                    tom = False
+                else:
+                    print('select a choice from the list')
+            elif eventchosen == 10:
+                if gamechoice == 1:
+                    'bob'
+                    tom = False
+                elif gamechoice == 2:
+                    'bob'
+                    tom = False
+                elif gamechoice == 3:
+                    'bob'
+                    tom = False
+                elif gamechoice == 4:
+                    'bob'
+                    tom = False
+                else:
+                    print('select a choice from the list')
 playing = True
 continued = 0
 counter = 0
