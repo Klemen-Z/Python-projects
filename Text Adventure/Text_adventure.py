@@ -210,7 +210,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 2:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -253,7 +253,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 3:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -296,7 +296,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 4:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -339,7 +339,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 5:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -382,7 +382,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 6:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -425,7 +425,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 7:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -468,7 +468,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 8:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -511,7 +511,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 9:
                 if gamechoice == 1:
                     if character == 'Mary':
@@ -554,7 +554,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
             elif eventchosen == 10:
                 if gamechoice == 1:
                     if character == 'Mary':
