@@ -153,11 +153,11 @@ def gamechoicerules():
             choicefour = 'Summon a dwarf to guide you through the mines (of mmmmoooorrriiiaaaa)'
 def gameuserchoicerules():
     global gamechoice
+    gamechoice = ''
     tom = True
     while tom:
         try:
             gamechoice = int(input('What will you do? '))
-            tom = False
         except ValueError:
             print('select a choice from the list')
         finally:
