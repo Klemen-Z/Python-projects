@@ -60,7 +60,7 @@ def eventrules():
     elif eventchosen == 8:
         event = f'{character} has arrived at a mage academy\n'
     elif eventchosen == 9:
-        event = f'{character} has entered the sleeping forest\n'
+        event = f'{character} has arrived at the sleeping forest\n'
     elif eventchosen == 10:
         event = f'{character} has encountered a mine (of mmmmooooorrrriiaaa)\n'
     log.write(f'''Event number {eventchosen} was chosen, this is the '{event}'\n''')
