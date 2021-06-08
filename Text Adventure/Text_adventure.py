@@ -597,7 +597,7 @@ def gameuserchoicerules():
                         pass
                         tom = False
                 else:
-                    print('select a choice from the list')
+                    pass
 playing = True
 continued = 0
 counter = 0
