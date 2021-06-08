@@ -2,8 +2,6 @@ import random
 log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
 global character, hp, Mana
-hp = 100
-Mana = 100
 print(f'''--------------------------------------------------------------------------
  Welcome to the game, select a character! 
  [1] Mary
@@ -24,7 +22,7 @@ while True:
         character = 'Mary'
         hp = 100
         Mana = 200
-        break
+        bob = break
     elif character == 2:
         log.write('''User picked 'Oberon' as a character\n''')
         story.write('Oberon is going on an adventure\n')
