@@ -127,8 +127,8 @@ def battle():
 
             print("-" * 150)
 
-            print("You dealet " + str(dmg) + " damage!")
+            print("You dealt " + str(dmg) + " damage!")
             enemy_hp = enemy_hp - dmg
             dmg = random.randrange(5, 21)
             hp = hp - dmg
-            print("The enemy dealet " + str(dmg) + " damage!")
+            print("The enemy dealt " + str(dmg) + " damage!")
