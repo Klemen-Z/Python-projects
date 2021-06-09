@@ -654,15 +654,15 @@ for that experience again''')
                     print(f'''-----------------------------------------
 {character} decided to retire and go home,
 to live for the rest of their life not
-knowing what or who they would have
-met later on in their journey
+knowing who or what they would have
+encountered later on in their journey
 -----------------------------------------''')
                     log.write('End of Game')
                     story.write(f'''
 {character} decided to retire and go home,
 to live for the rest of their life not
-knowing what or who they would have
-met later on in their journey
+knowing who or what they would have
+encountered later on in their journey
 ''')
                     counter = 0
                     cardinel = False
