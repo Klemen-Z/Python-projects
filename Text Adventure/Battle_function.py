@@ -1,8 +1,14 @@
-import random
-from Text_adventure import hp, mana, mana_regeneration, character
+import random, json
 
-maxmana = mana
-maxhp = hp
+file = open("Information.json", "r")
+data = json.load(file)
+
+maxmana = data["mana"]
+maxhp = data["hp"]
+hp = data["hp"]
+mana = data["mana"]
+character = data["character"]
+mana_regeneration = data["mana_regeneration"]
 
 def battle():
     global hp, maxhp, enemy_hp, enemy_maxhp, dmg, character, mana, mana_regeneration, maxmana
@@ -17,10 +23,10 @@ def battle():
             hp = maxhp
 
         if enemy_hp <= 0:
-            print("You lost the battle!")
+            print("You won the battle!")
             break
         elif hp <= 0:
-            print("You won the battle!")
+            print("You lost the battle!")
             break
         else:
             print("Enemy's health: " + str(enemy_hp) + "HP")
@@ -132,3 +138,5 @@ def battle():
             dmg = random.randrange(5, 21)
             hp = hp - dmg
             print("The enemy dealt " + str(dmg) + " damage!")
+
+battle()
