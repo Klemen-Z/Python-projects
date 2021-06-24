@@ -194,18 +194,443 @@ def gameuserchoicerules():
         except ValueError:
             print('select a choice from the list')
         finally:
-            if gamechoice == 1:
-                'bob'
-                tom = False
-            elif gamechoice == 2:
-                'bob'
-                tom = False
-            elif gamechoice == 3:
-                'bob'
-                tom = False
-            elif gamechoice == 4:
-                'bob'
-                tom = False
+            if eventchosen == 1:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        if character == 'Mary':
+                            pass
+                            tom = False
+                        elif character == 'Oberon':
+                            pass
+                            tom = False
+                        elif character == 'Terra':
+                            pass
+                            tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 2:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 3:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 4:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 5:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 6:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 7:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 8:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 9:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
+            elif eventchosen == 10:
+                if gamechoice == 1:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 2:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 3:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                elif gamechoice == 4:
+                    if character == 'Mary':
+                        pass
+                        tom = False
+                    elif character == 'Oberon':
+                        pass
+                        tom = False
+                    elif character == 'Terra':
+                        pass
+                        tom = False
+                else:
+                    pass
             else:
                 print('select a choice from the list')
 playing = True
