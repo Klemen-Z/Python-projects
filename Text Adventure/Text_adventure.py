@@ -1,4 +1,4 @@
-import random
+import random, json, Battle_function
 log = open('storygamelog.txt', 'w+')
 story = open('storygame.txt', 'w+')
 global hp, character, mana, mana_regeneration
@@ -23,6 +23,12 @@ while True:
         log.write('''User picked 'Mary' as a character\n''')
         story.write('Mary is going on an adventure\n')
         character = 'Mary'
+        json.dump({
+            "character": "Mary",
+            "hp": 100,
+            "mana": 200,
+            "mana_regeneration": 10
+        }, open("Information.json", "w"))
         break
     elif character == 2:
         hp = 75
@@ -31,6 +37,12 @@ while True:
         log.write('''User picked 'Oberon' as a character\n''')
         story.write('Oberon is going on an adventure\n')
         character = 'Oberon'
+        json.dump({
+            "character": "Oberon",
+            "hp": 75,
+            "mana": 100,
+            "mana_regeneration": 5
+        }, open("Information.json", "w"))
         break
     elif character == 3:
         hp = 200
@@ -39,6 +51,12 @@ while True:
         log.write('''User picked 'Terra' as a character\n''')
         story.write('Terra is going on an adventure\n')
         character = 'Terra'
+        json.dump({
+            "character": "Terra",
+            "hp": 200,
+            "mana": 50,
+            "mana_regeneration": 5
+        }, open("Information.json", "w"))
         break
     else:
         print('Pick a character please')
