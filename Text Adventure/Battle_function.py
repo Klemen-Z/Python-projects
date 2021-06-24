@@ -138,5 +138,3 @@ def battle():
             dmg = random.randrange(5, 21)
             hp = hp - dmg
             print("The enemy dealt " + str(dmg) + " damage!")
-
-battle()
