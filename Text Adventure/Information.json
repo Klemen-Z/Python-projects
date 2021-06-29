@@ -1,1 +1,3 @@
-{"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": "", "enemy two": "", "enemy three": ""}
+{"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": 0, "enemy two": 0, "enemy three": 0,
+  "damage one": 0, "damage two": 0, "damage three": 0, "mana one": 0, "mana two": 0, "mana three": 0
+}

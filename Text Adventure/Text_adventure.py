@@ -28,9 +28,12 @@ while True:
             "hp": 100,
             "mana": 200,
             "mana_regeneration": 10,
-            "enemy one": "Dragon",
-            "enemy two": "Elf",
-            "enemy three": "Mage"
+            "enemy one": 180,
+            "enemy two": 70,
+            "enemy three": 90,
+            "damage one": 0,
+            "damage two": 0,
+            "damage three": 0
         }, open("Information.json", "w"))
         break
     elif character == 2:
@@ -45,9 +48,12 @@ while True:
             "hp": 75,
             "mana": 100,
             "mana_regeneration": 5,
-            "enemy one": "Dragon",
-            "enemy two": "Elf",
-            "enemy three": "Mage"
+            "enemy one": 180,
+            "enemy two": 70,
+            "enemy three": 90,
+            "damage one": 0,
+            "damage two": 0,
+            "damage three": 0
         }, open("Information.json", "w"))
         break
     elif character == 3:
@@ -62,9 +68,12 @@ while True:
             "hp": 200,
             "mana": 50,
             "mana_regeneration": 5,
-            "enemy one": "Dragon",
-            "enemy two": "Elf",
-            "enemy three": "Mage"
+            "enemy one": 180,
+            "enemy two": 70,
+            "enemy three": 90,
+            "damage one": 0,
+            "damage two": 0,
+            "damage three": 0
         }, open("Information.json", "w"))
         break
     else:
@@ -675,6 +684,11 @@ fulfilling their first one they
 got a taste for it and continued searched
 for that experience again''')
                 log.write('End of Game')
+                json.dump({"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": 0, "enemy two": 0,
+                           "enemy three": 0,
+                           "damage one": 0, "damage two": 0, "damage three": 0, "mana one": 0, "mana two": 0,
+                           "mana three": 0
+                           }, open("information.json", "w"))
                 cardinel = False
                 playing = False
             else:
@@ -693,6 +707,9 @@ to live for the rest of their life not
 knowing what or who they would have
 met later on in their journey
 ''')
+                    json.dump({"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": 0, "enemy two": 0, "enemy three": 0,
+                               "damage one": 0, "damage two": 0, "damage three": 0, "mana one": 0, "mana two": 0, "mana three": 0},
+                              open("information.json", "w"))
                     counter = 0
                     cardinel = False
                     playing = False
