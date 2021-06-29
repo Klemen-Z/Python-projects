@@ -1,5 +1,5 @@
 Index:
--Introuction
+-Introduction
 -Characters
 -Character pros and cons
 -Game mechanics
