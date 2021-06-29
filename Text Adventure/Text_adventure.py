@@ -27,7 +27,10 @@ while True:
             "character": "Mary",
             "hp": 100,
             "mana": 200,
-            "mana_regeneration": 10
+            "mana_regeneration": 10,
+            "enemy one": "Dragon",
+            "enemy two": "Elf",
+            "enemy three": "Mage"
         }, open("Information.json", "w"))
         break
     elif character == 2:
@@ -41,7 +44,10 @@ while True:
             "character": "Oberon",
             "hp": 75,
             "mana": 100,
-            "mana_regeneration": 5
+            "mana_regeneration": 5,
+            "enemy one": "Dragon",
+            "enemy two": "Elf",
+            "enemy three": "Mage"
         }, open("Information.json", "w"))
         break
     elif character == 3:
@@ -55,7 +61,10 @@ while True:
             "character": "Terra",
             "hp": 200,
             "mana": 50,
-            "mana_regeneration": 5
+            "mana_regeneration": 5,
+            "enemy one": "Dragon",
+            "enemy two": "Elf",
+            "enemy three": "Mage"
         }, open("Information.json", "w"))
         break
     else:
@@ -113,7 +122,6 @@ def gamechoicerules():
             choicethree = 'Go find another path that does involve the mountain'
             choicefour = 'Fly over the mountain'
     elif eventchosen == 2:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Attack'
             choicetwo = 'Say hi'
@@ -130,49 +138,42 @@ def gamechoicerules():
             choicethree = 'Sneak past them'
             choicefour = 'No special available'
     elif eventchosen == 3:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Attack'
             choicetwo = 'Unavailable'
             choicethree = 'Sneak past it'
             choicefour = 'Launch a killing spell at it'
     elif eventchosen == 4:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Attack'
             choicetwo = 'Say hi'
             choicethree = 'Sneak past them'
             choicefour = 'Ask them for a chance to rest'
     elif eventchosen == 5:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Rest and regenerate health'
             choicetwo = 'Rest and regenerate Mana'
             choicethree = 'Move on'
             choicefour = 'No special available'
     elif eventchosen == 6:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Say hi'
             choicetwo = 'Go past'
             choicethree = 'Attack'
             choicefour = 'No special available'
     elif eventchosen == 7:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Attack'
             choicetwo = 'Unavailable'
             choicethree = 'Sneak past'
             choicefour = 'No special available'
     elif eventchosen == 8:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Say hi'
             choicetwo = 'Eat and drink'
             choicethree = 'Go past'
             choicefour = 'Improve chances of spell success'
     elif eventchosen == 9:
-        print(eventchosen)
         if character == 'Mary':
             choiceone = 'Enter'
             choicetwo = 'Go around'
