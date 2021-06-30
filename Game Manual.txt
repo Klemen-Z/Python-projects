@@ -8,8 +8,8 @@ Index:
 
 
 -Introduction
-	This is a text adventure game that currently has three charachters
-	(They will be listed later). All charachters have pros and cons (also
+	This is a text adventure game that currently has three characters
+	(They will be listed later). All characters have pros and cons (also
 	listed later on). There are currently ten possible events (not listed
 	you have to find them.:) ).
 
@@ -27,7 +27,7 @@ Index:
 -Character pros an cons
 	1.Mary
 	Can use magic to ward off curses and attack enemies. They attempt
-	to help others but end up being less than helpfull if they make a mistake
+	to help others but end up being less than helpful if they make a mistake
 	which is why all their choices have chances to fail. 
 	2.Oberon
 	The Elves are skilled archers and can communicate with trees, however they are not on
