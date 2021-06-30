@@ -716,8 +716,10 @@ to live for the rest of their life not
 knowing what or who they would have
 met later on in their journey
 ''')
-                    json.dump({"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": 0, "enemy two": 0, "enemy three": 0,
-                               "damage one": 0, "damage two": 0, "damage three": 0, "mana one": 0, "mana two": 0, "mana three": 0},
+                    json.dump({"character": "", "hp": 0, "mana": 0, "mana_regeneration": 0, "enemy one": 0,
+                               "enemy two": 0, "enemy three": 0,
+                               "damage one": 0, "damage two": 0, "damage three": 0, "mana one": 0, "mana two": 0,
+                               "mana three": 0},
                               open("information.json", "w"))
                     counter = 0
                     cardinel = False
