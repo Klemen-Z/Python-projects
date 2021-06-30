@@ -31,12 +31,12 @@ while True:
             "enemy one": 180,
             "enemy two": 70,
             "enemy three": 90,
-            "damage one": 0,
-            "damage two": 0,
-            "damage three": 0,
-            "mana one": 0,
-            "mana two": 0,
-            "mana three": 0
+            "damage one": 20,
+            "damage two": 5,
+            "damage three": 10,
+            "mana one": 50,
+            "mana two": 100,
+            "mana three": 175
         }, open("Information.json", "w"))
         break
     elif character == 2:
@@ -54,12 +54,12 @@ while True:
             "enemy one": 180,
             "enemy two": 70,
             "enemy three": 90,
-            "damage one": 0,
-            "damage two": 0,
-            "damage three": 0,
-            "mana one": 0,
-            "mana two": 0,
-            "mana three": 0
+            "damage one": 20,
+            "damage two": 5,
+            "damage three": 10,
+            "mana one": 50,
+            "mana two": 100,
+            "mana three": 175
         }, open("Information.json", "w"))
         break
     elif character == 3:
@@ -77,12 +77,12 @@ while True:
             "enemy one": 180,
             "enemy two": 70,
             "enemy three": 90,
-            "damage one": 0,
-            "damage two": 0,
-            "damage three": 0,
-            "mana one": 0,
-            "mana two": 0,
-            "mana three": 0
+            "damage one": 20,
+            "damage two": 5,
+            "damage three": 10,
+            "mana one": 50,
+            "mana two": 100,
+            "mana three": 175
         }, open("Information.json", "w"))
         break
     else:
