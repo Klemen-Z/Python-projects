@@ -42,7 +42,7 @@ Index:
 	1. Randomized events.
 	2. Character selector.
 	3. Enemies that can be friendly depending on their in game race.
-	4. Seperate in game races (currently only three).
+	4. Separate in game races (currently only three).
 	5. Fight mechanics.
 	6. Special choices for each character where it makes sense.
 	7. A story that is written as the game progresses and is rewritten,
