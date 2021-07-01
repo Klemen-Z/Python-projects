@@ -243,15 +243,35 @@ def gamechoicerules():
     elif eventchosen == 9:
         if character == 'Mary':
             choiceone = 'Enter'
-            choicetwo = 'Go around'
+            choicetwo = 'Go around the forest'
             choicethree = 'Find another path that leads far away'
             choicefour = 'Cast a spell to avoid the curse of the forest'
+        elif character == 'Oberon':
+            choiceone = 'Attack'
+            choicetwo = 'Ignore them'
+            choicethree = 'Sneak past them'
+            choicefour = 'No special available'
+        elif character == 'Terra':
+            choiceone = 'Enter the forest'
+            choicetwo = 'Find another path'
+            choicethree = 'Go around the forest'
+            choicefour = 'Fly past it'
     elif eventchosen == 10:
         if character == 'Mary':
             choiceone = '''Say 'They call it a mine' '''
             choicetwo = 'Look for a dwarf'
             choicethree = 'Look for an elf'
             choicefour = 'Summon a dwarf'
+        elif character == 'Oberon':
+            choiceone = '''Say 'They call it a mine' '''
+            choicetwo = 'Look for a dwarf'
+            choicethree = 'Attempt to guide yourself through the mines'
+            choicefour = 'Call for a dwarf'
+        elif character == 'Terra':
+            choiceone = 'Attack the dwarves'
+            choicetwo = 'Unavailable'
+            choicethree = 'Unavailable'
+            choicefour = 'Fly past it'
 def gameuserchoicerules():
     global gamechoice
     tom = True
