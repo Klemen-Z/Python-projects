@@ -198,6 +198,16 @@ def gamechoicerules():
             choicetwo = 'Go past'
             choicethree = 'Attack'
             choicefour = 'No special available'
+        elif character == 'Oberon':
+            choiceone = 'Rest and regenerate health'
+            choicetwo = 'Rest and regenerate Mana'
+            choicethree = 'Move on'
+            choicefour = 'No special available'
+        elif character == 'Terra':
+            choiceone = 'Rest and regenerate health'
+            choicetwo = 'Rest and regenerate Mana'
+            choicethree = 'Move on'
+            choicefour = 'No special available'
     elif eventchosen == 7:
         if character == 'Mary':
             choiceone = 'Attack'
