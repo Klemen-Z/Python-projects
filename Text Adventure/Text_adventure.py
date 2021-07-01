@@ -462,20 +462,21 @@ def gameuserchoicerules():
                 else:
                     pass
             elif eventchosen == 5:
-                if gamechoice == 1:
-                    pass
-                    tom = False
-                elif gamechoice == 2:
-                    pass
-                    tom = False
-                elif gamechoice == 3:
-                    pass
-                    tom = False
-                elif gamechoice == 4:
-                    pass
-                    tom = False
-                else:
-                    pass
+                while True:
+                    if gamechoice == 1:
+                        pass
+                        break
+                    elif gamechoice == 2:
+                        pass
+                        break
+                    elif gamechoice == 3:
+                        print(f'{character} moved past the rest point')
+                        break
+                    elif gamechoice == 4:
+                        print('Pick something else this is unavailable')
+                    else:
+                        print('Pick an option from the list')
+                tom = False
             elif eventchosen == 6:
                 if gamechoice == 1:
                     if character == 'Mary':
