@@ -463,45 +463,17 @@ def gameuserchoicerules():
                     pass
             elif eventchosen == 5:
                 if gamechoice == 1:
-                    if character == 'Mary':
-                        pass
-                        tom = False
-                    elif character == 'Oberon':
-                        pass
-                        tom = False
-                    elif character == 'Terra':
-                        pass
-                        tom = False
+                    pass
+                    tom = False
                 elif gamechoice == 2:
-                    if character == 'Mary':
-                        pass
-                        tom = False
-                    elif character == 'Oberon':
-                        pass
-                        tom = False
-                    elif character == 'Terra':
-                        pass
-                        tom = False
+                    pass
+                    tom = False
                 elif gamechoice == 3:
-                    if character == 'Mary':
-                        pass
-                        tom = False
-                    elif character == 'Oberon':
-                        pass
-                        tom = False
-                    elif character == 'Terra':
-                        pass
-                        tom = False
+                    pass
+                    tom = False
                 elif gamechoice == 4:
-                    if character == 'Mary':
-                        pass
-                        tom = False
-                    elif character == 'Oberon':
-                        pass
-                        tom = False
-                    elif character == 'Terra':
-                        pass
-                        tom = False
+                    pass
+                    tom = False
                 else:
                     pass
             elif eventchosen == 6:
