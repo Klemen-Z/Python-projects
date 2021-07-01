@@ -161,18 +161,37 @@ def gamechoicerules():
             choicetwo = 'Unavailable'
             choicethree = 'Sneak past it'
             choicefour = 'Launch a killing spell at it'
+        elif character == 'Oberon':
+            choiceone = 'Attack'
+            choicetwo = 'Unavailable'
+            choicethree = 'Sneak past it'
+            choicefour = 'Sing it to sleep'
+        elif character == 'Terra':
+            choiceone = 'Attack'
+            choicetwo = 'Try to intimidate it'
+            choicethree = 'Sneak past them'
+            choicefour = 'No special available'
     elif eventchosen == 4:
         if character == 'Mary':
             choiceone = 'Attack'
             choicetwo = 'Say hi'
             choicethree = 'Sneak past them'
             choicefour = 'Ask them for a chance to rest'
-    elif eventchosen == 5:
-        if character == 'Mary':
-            choiceone = 'Rest and regenerate health'
-            choicetwo = 'Rest and regenerate Mana'
-            choicethree = 'Move on'
+        elif character == 'Oberon':
+            choiceone = 'Attack'
+            choicetwo = 'Ignore them'
+            choicethree = 'Sneak past them'
             choicefour = 'No special available'
+        elif character == 'Terra':
+            choiceone = 'Attack'
+            choicetwo = 'Unavailable'
+            choicethree = 'Sneak past them'
+            choicefour = 'Destroy them with your fiery breath'
+    elif eventchosen == 5:
+        choiceone = 'Rest and regenerate health'
+        choicetwo = 'Rest and regenerate Mana'
+        choicethree = 'Move on'
+        choicefour = 'No special available'
     elif eventchosen == 6:
         if character == 'Mary':
             choiceone = 'Say hi'
