@@ -179,7 +179,7 @@ def gamechoicerules():
             choicefour = 'Ask them for a chance to rest'
         elif character == 'Oberon':
             choiceone = 'Attack'
-            choicetwo = 'Ignore them'
+            choicetwo = 'Say hi'
             choicethree = 'Sneak past them'
             choicefour = 'No special available'
         elif character == 'Terra':
@@ -230,6 +230,16 @@ def gamechoicerules():
             choicetwo = 'Eat and drink'
             choicethree = 'Go past'
             choicefour = 'Improve chances of spell success'
+        elif character == 'Oberon':
+            choiceone = 'Attack'
+            choicetwo = 'Ignore them'
+            choicethree = 'Sneak past them'
+            choicefour = 'No special available'
+        elif character == 'Terra':
+            choiceone = 'Attack'
+            choicetwo = 'Unavailable'
+            choicethree = 'Sneak past them'
+            choicefour = 'No special available'
     elif eventchosen == 9:
         if character == 'Mary':
             choiceone = 'Enter'
