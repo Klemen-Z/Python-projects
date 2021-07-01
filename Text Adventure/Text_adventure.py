@@ -464,13 +464,19 @@ def gameuserchoicerules():
             elif eventchosen == 5:
                 while True:
                     if gamechoice == 1:
-                        pass
+                        print(f'{character} healed up at the rest point')
+                        story.write(f'{character} healed up at the rest point')
+                        log.write(f'User picked {gamechoice}')
                         break
                     elif gamechoice == 2:
-                        pass
+                        print(f'{character} regained mana at the rest point')
+                        story.write(f'{character} regained mana at the rest point')
+                        log.write(f'User picked {gamechoice}')
                         break
                     elif gamechoice == 3:
                         print(f'{character} moved past the rest point')
+                        story.write(f'{character} moved past the rest point')
+                        log.write(f'User picked {gamechoice}')
                         break
                     elif gamechoice == 4:
                         print('Pick something else this is unavailable')
