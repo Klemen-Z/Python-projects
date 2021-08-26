@@ -24,7 +24,7 @@ Index:
  	that belong to the dragons
 
 
--Character pros an cons
+-Character pros and cons
 	1.Mary
 	Can use magic to ward off curses and attack enemies. They attempt
 	to help others but end up being less than helpful if they make a mistake
@@ -33,7 +33,7 @@ Index:
 	The Elves are skilled archers and can communicate with trees, however they are not on
 	good terms with the dragons and are very trusting of strangers and friends alike.
 	3.Terra
-	Dragons aren't stopped by terrain (cliffs, mountains,etc)
+	Dragons aren't stopped by terrain (cliffs, mountains,etc.),
 	however they are not in good terms with any of they in game races, and cannot walk
 	for long periods of time.
 
